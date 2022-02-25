@@ -146,8 +146,7 @@
 }
 
 #whyus .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 
 #whyus .container h2 {
@@ -201,6 +200,12 @@
   text-align: center;
   color: white;
   padding-bottom: 10px;
+}
+
+@media (max-width: 750px) {
+  #getting-started .container .get-desc h2 {
+    font-size: 25px;
+  }
 }
 
 #getting-started .container .get-desc p {
