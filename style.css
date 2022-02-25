@@ -1,0 +1,242 @@
+:root {
+  --primary-color: black;
+  --secondary-color: rgb(38, 68, 148);
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+#header {
+  background-color: #F1F3FF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 0px;
+}
+
+#header .menu-sm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#header .menu-sm a {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+#header .menu-sm a:hover {
+  color: var(--secondary-color);
+}
+
+#header .header-menu li {
+  font-weight: 500;
+  padding-top: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#header .header-menu li a {
+  font-size: 18px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+#header .header-menu li a:hover {
+  color: var(--secondary-color);
+}
+
+#header .header-menu li a.register {
+  border-width: 2px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: white;
+}
+
+#main {
+  overflow: hidden;
+}
+
+#home {
+  background-color: #F1F3FF;
+}
+
+#home .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#home .container .home-desc {
+  padding-top: auto;
+}
+
+#home .container .home-desc h1 {
+  font-weight: bold;
+}
+
+@media (max-width: 950px) {
+  #home .container .home-desc h1 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+
+#home .container .home-desc p {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+#home .container .home-desc .sewa {
+  padding: 10px 25px;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  #home .container .home-desc {
+    text-align: center;
+  }
+}
+
+#home .container .home-image {
+  width: 125%;
+}
+
+@media (min-width: 800px) {
+  #home .container .home-image {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  #home .container .home-image {
+    margin-top: 0;
+    max-width: 90%;
+    -webkit-transform: translateX(7%);
+            transform: translateX(7%);
+  }
+}
+
+#ourservices .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#ourservices .container .ourservice-image {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#ourservices .container h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+@media (max-width: 950px) {
+  #ourservices .container h2 {
+    font-size: 28px;
+  }
+}
+
+#ourservices .container ul li {
+  list-style-type: none;
+}
+
+#whyus .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#whyus .container h2 {
+  font-weight: bold;
+}
+
+#whyus .container p {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#whyus .container h5 {
+  padding-top: 20px;
+}
+
+#testi .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#testi .container h2 {
+  font-weight: bold;
+}
+
+#testi .container a {
+  text-align: center;
+  font-weight: bold;
+  background-color: #141212;
+  color: whitesmoke;
+}
+
+#getting-started .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#getting-started .container .get-desc {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  border-style: solid #0D28A6;
+  border-radius: 8px;
+  background-color: #0D28A6;
+  height: 300px;
+}
+
+#getting-started .container .get-desc h2 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#getting-started .container .get-desc p {
+  font-weight: 600px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+  #getting-started .container .get-desc {
+    height: 400px;
+    width: auto;
+  }
+}
+
+#faq .container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#faq .container .faq h2 {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+#faq .container .faq .form-padd {
+  padding: 10px 10px;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#footer .column-menu {
+  font-weight: 500;
+}
+/*# sourceMappingURL=style.css.map */
